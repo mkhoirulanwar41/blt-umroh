@@ -1,0 +1,50 @@
+* {
+    font-family: "Monsterrat";
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#header {
+    padding: 16px 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #006400;
+    position: sticky;
+}
+
+nav ul {
+    width: 100%;
+    left: 0;
+    right: 0;
+    display:flex;
+    gap: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
