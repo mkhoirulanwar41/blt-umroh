@@ -110,4 +110,8 @@ nav a:hover {
     nav a:hover {
         color: #006400;
     }
+
+    #header {
+        padding: 16px 32px;
+    }
 }
