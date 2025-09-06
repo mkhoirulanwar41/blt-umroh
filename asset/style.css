@@ -4,6 +4,7 @@
     scroll-behavior: smooth;
 }
 
+
 html, body {
     margin: 0;
     padding: 0;
@@ -17,6 +18,7 @@ html, body {
     background-color: #006400;
     position: sticky;
     z-index: 1000;
+    border-top: 10px solid yellow;
 }
 
 nav ul {
@@ -104,14 +106,15 @@ nav a:hover {
     }
 
     nav a {
-        color: black;
+        color: #006400;
     }
 
     nav a:hover {
-        color: #006400;
+        color: black;
     }
 
     #header {
         padding: 16px 32px;
     }
+
 }
