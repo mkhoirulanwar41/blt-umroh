@@ -37,7 +37,7 @@ nav ul li {
     margin: 0;
 }
 
-#section {
+section {
     padding: 32px 128px;
 }
 
@@ -80,6 +80,33 @@ nav a:hover {
     color: black;
 }
 
+#landing {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#landing img {
+    z-index: -1;
+    width: auto;
+    height: 700px;
+    object-fit: cover;
+}
+
+.desc {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    z-index: 1;
+    color: white;
+}
+
+.desc h1 {
+    font-size: 50px;
+}
+
+
+
 
 
 @media screen and (max-width: 800px) {
@@ -115,6 +142,14 @@ nav a:hover {
 
     #header {
         padding: 16px 32px;
+    }
+
+    #landing img {
+        width: auto;
+    }
+
+    .desc {
+        left: auto;
     }
 
 }
