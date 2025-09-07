@@ -99,7 +99,8 @@ nav a:hover {
 .desc h1 {
     font-size: 30px;
     color: yellow;
-    padding-bottom: 20px;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 
@@ -146,8 +147,8 @@ nav a:hover {
     }
 
     .desc h1 {
-        font-size: 20px;
-        padding-bottom: 10px;
+        font-size: 25px;
+        padding-bottom: 5px;
     }
 
 }
