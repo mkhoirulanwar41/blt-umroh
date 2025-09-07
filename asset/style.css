@@ -93,11 +93,13 @@ nav a:hover {
 
 .desc {
     color: white;
+    margin: 0 auto;
 }
 
 .desc h1 {
     font-size: 30px;
     color: yellow;
+    padding-bottom: 20px;
 }
 
 
