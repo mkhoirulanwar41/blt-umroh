@@ -171,6 +171,11 @@ nav a:hover {
         transition: max-height 0.3s ease-in-out;
     }
 
+    nav a {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
     .title-section {
         font-size: 20px;
     }
