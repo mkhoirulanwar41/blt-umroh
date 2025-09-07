@@ -12,6 +12,8 @@ html, body {
 
 .title-section {
     text-align: center;
+    font-weight:900;
+    font-size: 30px;
 }
 
 #header {
@@ -124,6 +126,7 @@ nav a:hover {
     text-align: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     transition: tranfrom 0.3s ease;
+    position: relative;
 }
 
 .service-card img {
@@ -135,6 +138,20 @@ nav a:hover {
 .service-card ul li {
     list-style: none;
     padding-bottom: 5px;
+}
+
+.service-img .rath {
+    width: 150px;
+    height: 70px;
+    background-color: yellow;
+    position: absolute;
+    top: 420px;
+    right: 0;
+    border-radius: 0 0 0 20px;
+}
+
+.service-desc h2{
+    color: #006400;
 }
 
 
@@ -152,6 +169,10 @@ nav a:hover {
         padding: 16px;
         text-align: left;
         transition: max-height 0.3s ease-in-out;
+    }
+
+    .title-section {
+        font-size: 20px;
     }
 
     .menu-icon {
@@ -178,7 +199,7 @@ nav a:hover {
         left: auto;
     }
 
-    .desc h1 {
+    .desc  h1 {
         font-size: 25px;
         padding-bottom: 5px;
     }
@@ -192,6 +213,10 @@ nav a:hover {
     width: 300px;
     height: 400px;
     object-fit: cover;
+    }
+
+    .service-img .rath {
+        top: 330px;
     }
 
 }
