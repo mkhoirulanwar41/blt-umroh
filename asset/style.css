@@ -167,6 +167,10 @@ nav a:hover {
     height: 40px;
 }
 
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
 #testi-up {
     display: flex;
     text-align: center;
@@ -180,7 +184,34 @@ nav a:hover {
 .testi-up-desc {
     margin: 0 auto;
     color: white;
-    width: 70%;
+
+}
+
+#testimoni {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+
+}
+
+.testi-card {
+    flex: 1 1 300px;
+    max-width: 350px;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
+    transition: transfrom 0.3s ease;
+    position: relative;
+}
+
+.testi-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
 }
 
 @media screen and (max-width: 800px) {
