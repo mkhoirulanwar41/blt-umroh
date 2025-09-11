@@ -183,6 +183,21 @@ nav a:hover {
 
 }
 
+#testi-down {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background: url("../image/madinah-fix.jpg");
+    position: relative;
+}
+
+.testi-down-desc {
+    margin: 0 auto;
+    color: white;
+}
+
 #testimoni {
     display: flex;
     justify-content: space-between;
@@ -221,7 +236,7 @@ nav a:hover {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
     nav ul {
         display: none;
@@ -291,6 +306,11 @@ nav a:hover {
 
     section {
         padding: 16px 20px;
+    }
+
+    #testimoni {
+        flex-direction: column;
+        align-items: center;
     }
 
 }
