@@ -167,12 +167,6 @@ nav a:hover {
     height: 40px;
 }
 
-<<<<<<< HEAD
-.service-card:hover {
-    transform: translateY(-8px);
-}
-
-=======
 #testi-up {
     display: flex;
     text-align: center;
@@ -182,7 +176,6 @@ nav a:hover {
     background: url("../image/tawaf.jpg");
     position: relative;
 }
->>>>>>> 2ecb60b0c71474bd85d8a942df2c89f3e834dc17
 
 .testi-up-desc {
     margin: 0 auto;
