@@ -205,6 +205,8 @@ nav a:hover {
     margin: 0 auto;
     color: white;
     font-size: 20px;
+    padding-bottom: 10px;
+    align-items: center;
 }
 
 #testimoni {
@@ -225,6 +227,7 @@ nav a:hover {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     transition: transfrom 0.3s ease;
     position: relative;
+    align-items: stretch;
 }
 
 .testi-card:hover {
@@ -236,6 +239,7 @@ nav a:hover {
     height: 200px;
     object-fit: cover;
     border-radius: 100%;
+    flex-grow: 4;
 }
 
 .testi-card video {
@@ -247,6 +251,20 @@ nav a:hover {
 .testi-card ul li {
     list-style: none;
 
+}
+
+.btn-testi {
+    color: white;
+    width: 200px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.btn-testi:hover {
+    background-color: yellow;
+    color: black;
 }
 
 @media screen and (max-width: 800px) {
