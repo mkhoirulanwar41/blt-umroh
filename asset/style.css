@@ -167,6 +167,10 @@ nav a:hover {
     height: 40px;
 }
 
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
 
 
 @media screen and (max-width: 800px) {
