@@ -225,6 +225,48 @@ nav a:hover {
 
 }
 
+#artikel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 10%;
+    background: #c7e0c7;
+}
+
+.artikel-card {
+    background: #FFF;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.artikel-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.artikel-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.artikel-card p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.artikel-card a {
+    text-decoration: none;
+    color: #006400;
+    font-weight: bold;
+}
+
+.artikel-card:hover {
+    transform: translateY(-8px);
+}
+
 @media screen and (max-width: 800px) {
 
     nav ul {
